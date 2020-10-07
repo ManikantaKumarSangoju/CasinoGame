@@ -20,7 +20,8 @@ int main()
    printf("enter the money ");
    scanf("%d",&money);
    initial = money;
-   while(1)
+   d='y'
+   while(d=='y')
    {
        if(money == 0)
        {
@@ -31,7 +32,7 @@ int main()
        printf("your current balance is $%d\n",money);
        printf("enter the amount to be bid $");
        scanf("%d",&bid);
-       if(bid > money)
+       if(bid > money || bid==0)
        {
            printf("You have bidded more than your current balance\n");
            printf("Please enter valid bid\n");
@@ -61,5 +62,6 @@ int main()
            printf("You have chosen to stop the game\n");
            break;
        }
+      
    }
 }
