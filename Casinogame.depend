@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1602072584 source:e:\unschool\casinogame\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
