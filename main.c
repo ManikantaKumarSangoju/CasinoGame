@@ -62,6 +62,11 @@ int main()
            printf("You have chosen to stop the game\n");
            break;
        }
+      else if(d!='y')
+      {
+         printf("You have entered abnormal choice\n");
+         break;
+      }
       
    }
 }
